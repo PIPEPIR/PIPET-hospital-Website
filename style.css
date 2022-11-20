@@ -1,1 +1,20 @@
-
+ header a{
+    color: #414141;
+    display: inline-block;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-family: "Space Grotesk",sans-serif;
+}
+header{
+    font-size: 45 px;
+    padding-inline-start: 2em;
+    color: black;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1440px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #F8E0FB;
+}
