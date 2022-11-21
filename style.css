@@ -156,37 +156,57 @@ flex-grow: 0;
 
 
 /* Content-Start */
-#team{
-    
-position: absolute;
-width: 100%;
-height: 532px;
-left: 0px;
-top: 640px;
+/* Team */
+.team{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-y: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    position: absolute;
+    width: 100%;
+    height: 532px;
+    left: 0px;
+    top: 640px;
 }
 
 .content{
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 80px;
-
-position: absolute;
-width: 1300px;
-height: 374px;
-left: calc(50% - 1300px/2);
-top: 66px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+    position: absolute;
+    width: 1300px;
+    height: 374px;
+    left: calc(50% - 1300px/2);
+    top: 66px;
 }
 .team_center{
     display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 32px;
-
-width: 856px;
-height: 136px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #1A7276;
+    font-weight: bold;
+}
+.team_content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+    align-items: center;
+    gap: 2 rem;
+    text-align: center;
+    margin-top: 4 rem;
+    width: 856px;
+    height: 136px;
 
 
 /* Inside auto layout */
