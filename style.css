@@ -14,7 +14,7 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 .inner_menu ul{margin: 0; padding: 30px;list-style: none;}
 .inner_menu ul li{ float: none; display: inline-block;}
 .inner_menu ul li a{color: #414141; text-decoration: none; font-family: "Space Grotesk",sans-serif;padding: 1px 20px; }
-.inner_menu ul li a:hover{color:#1A7276;}
+.inner_menu ul li a:hover{color: #062729;}
 #menu{width: 100%;}
 
 #nav{
@@ -23,18 +23,20 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
     top: 16px;
     left: 70px;
     gap: 8px;
-} 
+}
 .logo{
     position: absolute;
     width: 141px;
     height: 150px;
     left:50%;
     align-items: center;
+   
+    
     background: url(logo.png);
 }
 
 #menu{
-   
+    width: 100%;
     height: 76px;
     left: 0px;
     top: 0px;
@@ -43,6 +45,7 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 }
 body{
     margin: 0px;
+
     width: 100%;
     position: relative;
     height: 2789px;
@@ -55,6 +58,7 @@ body{
     position: absolute;
     height: 500px;
     left: 0px;
+
     right: 0px;
     top: calc(50% - 500px/2 - 1068.5px);
 
@@ -150,23 +154,101 @@ flex-grow: 0;
 
 /* Header-End */
 
-/* Team */
-.team{
-    position: relative;
-    width: 1440px;
-    height: 532px;
-    overflow-y: 640px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
+/* Content-Start */
+#team{
     
+position: absolute;
+width: 100%;
+height: 532px;
+left: 0px;
+top: 640px;
+}
+
+.content{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 80px;
+
+position: absolute;
+width: 1300px;
+height: 374px;
+left: calc(50% - 1300px/2);
+top: 66px;
 }
 .team_center{
-    font-family: 'Space Grotesk', sans-serif;
-    color: #1A7276;
-    font-weight: bold;
-}
-.team_content{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
 
+width: 856px;
+height: 136px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
+
+.team_content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 1300px;
+height: 158px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.team_box{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 1300px;
+height: 158px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.box{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 301px;
+height: 156px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
