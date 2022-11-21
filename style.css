@@ -18,6 +18,15 @@ header{
     background: #FFFFFF;
     border-bottom: 1px solid #F8E0FB;
 }
+body{
+
+    position: relative;
+    width: 1440px;
+    height: 2789px;
+
+
+    background: #FFFFFF;
+}
 
 h1{ 
     width: 856px;
@@ -45,20 +54,22 @@ h1{
 }
 
 #part1{
-    height: 500px;
-    width: 1440px;
-    left: 0px;
-    top: 76px;
-    border-radius: 0px;
     position: absolute;
     height: 500px;
     left: 0px;
     right: 0px;
-    /* top: calc(50% - 500px/2 - 1068.5px); */
+    top: calc(50% - 500px/2 - 1068.5px);
+
 
 }
-.banner {
+#banner {
 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
 
     position: absolute;
     width: 856px;
@@ -70,26 +81,32 @@ h1{
 
 }
 
-#pbanner{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 48px;
-    gap: 10px;
-    width: 856px;
+#pbanner:not(#banner){
+    width: 760px;
     height: 24px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Accent */
+
+    color: #532C59;
 
 
     /* Inside auto layout */
 
     flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+    order: 0;
+    flex-grow: 1;
 }
 
-#start{
+#start:not(#banner){
     display: flex;
     flex-direction: column;
     justify-content: center;
