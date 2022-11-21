@@ -157,7 +157,7 @@ flex-grow: 0;
 
 /* Content-Start */
 /* Team */
-.team{
+#team{
     position: relative;
     width: 100%;
     height: 100vh;
