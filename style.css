@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
-.inner_menu{margin: 0 auto; width: 1170px;}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a.inner_menu{margin: 0 auto; width: 1170px;}
 .inner_menu ul{margin: 0; padding: 30px;list-style: none;}
 .inner_menu ul li{ float: none; display: inline-block;}
 .inner_menu ul li a{color: #414141; text-decoration: none; font-family: "Space Grotesk",sans-serif;padding: 1px 20px; }
@@ -8,16 +19,21 @@
 .logo{width: 200px; height: 200px; position: absolute; left: 50%; top: 0;  content:" " ; margin-left: -150px;}
 
 #nav{
-    width: 281;
+    width: 1440px;
     height: 44px;
     top: 16px;
     left: 70px;
     gap: 8px;
 }
 .logo{
-Top:-37px;
-Left:633px;
-
+    position: absolute;
+    width: 141px;
+    height: 150px;
+    left:50%;
+    align-items: center;
+   
+    
+    background: url(logo.png);
 }
 
 #menu{
@@ -28,7 +44,6 @@ Left:633px;
     background: #FFFFFF;
     border-bottom: 2px solid #F8E0FB;
 }
-
 body{
 
     position: relative;
@@ -37,30 +52,7 @@ body{
     background: #FFFFFF;
 }
 
-h1{ 
-    width: 856px;
-    height: 192px;
-
-    font-family: 'Syne';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 96px;
-    /* or 120% */
-
-    text-align: center;
-
-    color: #1A7276;
-
-    text-shadow: -5px 5px 0px #FFFFFF;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-}
+/* Header-Start */
 
 #part1{
     position: absolute;
@@ -70,72 +62,20 @@ h1{
     top: calc(50% - 500px/2 - 1068.5px);
 
 }
+
 #banner {
 
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
-    gap: 32px;
 
+    
     position: absolute;
     width: 856px;
     height: 332px;
     left: calc(50% - 856px/2 + 262px);
     top: 104px;
-
-    background: #FFFFFF;
-
-}
-
-#pbanner:not(h1){
-    width: 760px;
-    height: 24px;
-
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    text-align: center;
-
-    /* Accent */
-
-    color: #532C59;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 1;
-}
-
-#start:not(#banner){
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 10px;
-    color: #FFFFFF;
-
-    width: 83px;
-    height: 52px;
-
-    /* Accent */
-
-    background: #532C59;
-    border-radius: 15px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
 }
 
 #pic1 {
@@ -146,12 +86,71 @@ h1{
     top: 64px;
     
     background: url(.png);
+}
 
-    height: 100px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    border-bottom: 2px solid #F8E0FB;
+
+#namehos{
+    /* PIPET HOSPITAL */
+
+
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+/* or 120% */
+
+text-align: center;
+
+color: #1A7276;
+
+
+/* Inside auto layout */
+
 
 }
+
+#quote{
+    margin-top: -20;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    
+
+
+
+
+/* Inside auto layout */
+
+}
+
+
+#start{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 83px;
+height: 52px;
+
+/* Accent */
+color: white;
+background: #532C59;
+border-radius: 15px;
+
+font-family: 'Syne';
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+/* Header-End */
+
 
