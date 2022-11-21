@@ -1,4 +1,4 @@
- header a{
+header a{
     color: #414141;
     display: inline-block;
     padding: 1px 20px;
@@ -17,4 +17,108 @@ header{
     top: 0px;
     background: #FFFFFF;
     border-bottom: 1px solid #F8E0FB;
+}
+
+h1{ 
+    width: 856px;
+    height: 192px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    /* or 120% */
+
+    text-align: center;
+
+    color: #1A7276;
+
+    text-shadow: -5px 5px 0px #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#part1{
+    height: 500px;
+    width: 1440px;
+    left: 0px;
+    top: 76px;
+    border-radius: 0px;
+    position: absolute;
+    height: 500px;
+    left: 0px;
+    right: 0px;
+    /* top: calc(50% - 500px/2 - 1068.5px); */
+
+}
+.banner {
+
+
+    position: absolute;
+    width: 856px;
+    height: 332px;
+    left: calc(50% - 856px/2 + 262px);
+    top: 104px;
+
+    background: #FFFFFF;
+
+}
+
+#pbanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 48px;
+    gap: 10px;
+    width: 856px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    color: #FFFFFF;
+
+    width: 83px;
+    height: 52px;
+
+    /* Accent */
+
+    background: #532C59;
+    border-radius: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#pic1 {
+    position: absolute;
+    width: 367px;
+    height: 423px;
+    left: 248px;
+    top: 64px;
+
+    background: url(.png);
 }
