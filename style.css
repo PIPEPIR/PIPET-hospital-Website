@@ -7,22 +7,28 @@ a{
     font-family: "Space Grotesk",sans-serif;
 }
 #nav{
-header{
     font-size: 45 px;
     padding-inline-start: 2em;
     color: black;
     box-sizing: border-box;
-
-    position: absolute;
+    color: #414141;
+    display: inline-block;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-family: "Space Grotesk",sans-serif;
+}
+#logo{
+    
+}
+#menu{
     width: 1440px;
-/*HEAD*/
-    height: 76px;
+    height: 100px;
     left: 0px;
     top: 0px;
-
-background: #FFFFFF;
-border-bottom: 1px solid #F8E0FB;
+    background: #FFFFFF;
+    border-bottom: 2px solid #F8E0FB;
 }
+
 body{
 
     position: relative;
@@ -148,14 +154,4 @@ h1{
     border-bottom: 2px solid #F8E0FB;
 
 }
-header a{
-    overflow-x: 70px;
-    overflow-y: 16px;
-    width: 200px;
-    height: 10px;
-    color: #414141;
-    display: inline-block;
-    padding:5px 5px;
-    text-decoration: none;
-    font-family: "Space Grotesk",sans-serif;
- }
+
