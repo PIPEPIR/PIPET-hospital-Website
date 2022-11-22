@@ -14,14 +14,33 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 .inner_menu ul li{ float: none; display: inline-block;}
 .inner_menu ul li a{color: #414141; text-decoration: none; font-family: "Space Grotesk",sans-serif;padding: 1px 20px; }
 .inner_menu ul li a:hover{color: #062729;}
+#menu{width: 100%;}
 
+#nav{
+    width: 1440px;
+    height: 44px;
+    top: 16px;
+    left: 70px;
+    gap: 8px;
+}
 .logo{
     position: absolute;
     width: 141px;
     height: 150px;
     left:50%;
     align-items: center;
+   
+    
     background: url(logo.png);
+}
+
+#menu{
+    width: 100%;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-bottom: 2px solid #F8E0FB;
 }
 
 
@@ -30,7 +49,6 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 
 #menu{
 box-sizing: border-box;
-
 position: absolute;
 width: 1440px;
 height: 76px;
@@ -83,250 +101,32 @@ border-bottom: 1px solid #F8E0FB;
     order: 0;
     flex-grow: 1;
 }
-/* Rectangle 2 */
 
-
-position: absolute;
-width: 1301px;
-height: 611px;
-left: 70px;
-top: 216px;
-
-background: rgba(83, 44, 89, 0.11);
-border-radius: 30px;
-
-
-/* Button Wrapper - Horizontal */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 16px;
-
-position: absolute;
-width: 119px;
-height: 52px;
-left: 1027px;
-top: 561px;
-
-
-
-/* Name */
-
-
-position: absolute;
-width: 260px;
-height: 32px;
-left: 359px;
-top: 628px;
-
-
-
-/* OWNER PHONE: */
-
-
-position: absolute;
-width: 178px;
-height: 20px;
-left: 139px;
-top: 636px;
-
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 20px;
-/* identical to box height, or 80% */
-
-
-color: #000000;
-
-
-
-/* Name */
-
-
-position: absolute;
-width: 260px;
-height: 32px;
-left: 359px;
-top: 555px;
-
-
-
-/* OWNER NAME: */
-
-
-position: absolute;
-width: 167px;
-height: 20px;
-left: 139px;
-top: 561px;
-
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 20px;
-/* identical to box height, or 80% */
-
-
-color: #000000;
-
-
-
-/* Menu Vertical */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 10px 16px;
-gap: 17px;
-
-position: absolute;
-width: 260px;
-height: 34px;
-left: 359px;
-top: 479px;
-
-/* White */
-
-background: #FFFFFF;
-/* Gray/0 */
-
-box-shadow: 0px 0px 50px -10px rgba(41, 41, 41, 0.08);
-border-radius: 6px;
-
-
-/* DATE OF BIRTH */
-
-
-position: absolute;
-width: 172px;
-height: 20px;
-left: 138px;
-top: 486px;
-
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 20px;
-/* identical to box height, or 80% */
-
-
-color: #000000;
-
-
-
-/* PET TYPE: */
-
-
-position: absolute;
-width: 115px;
-height: 20px;
-left: 138px;
-top: 411px;
-
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 20px;
-/* identical to box height, or 80% */
-
-
-color: #000000;
-
-
-
-/* Menu Vertical */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 10px 16px;
-gap: 17px;
-
-position: absolute;
-width: 260px;
-height: 34px;
-left: 359px;
-top: 404px;
-
-/* White */
-
-background: #FFFFFF;
-/* Gray/0 */
-
-box-shadow: 0px 0px 50px -10px rgba(41, 41, 41, 0.08);
-border-radius: 6px;
-
-
-/* PET NAME: */
-
-
-position: absolute;
+.infobox{
+    position: absolute;
+    width: 1301px;
+    height: 611px;
+    left: 70px;
+    top: 216px;
+    
+    background: rgba(83, 44, 89, 0.11);
+    border-radius: 30px;
+    }
+.infobox ul{
+    position: absolute;
 width: 125px;
 height: 20px;
 left: 138px;
 top: 336px;
 
+
 font-family: 'Space Grotesk';
 font-style: normal;
-font-weight: 500;
+font-weight: 1000;
 font-size: 25px;
 line-height: 20px;
 /* identical to box height, or 80% */
 
 
 color: #000000;
-
-
-
-/* Name */
-
-
-position: absolute;
-width: 260px;
-height: 32px;
-left: 359px;
-top: 330px;
-
-
-
-/* Ellipse 1 */
-
-
-box-sizing: border-box;
-
-position: absolute;
-width: 265px;
-height: 265px;
-left: 940px;
-top: 272px;
-
-background: #FFFFFF;
-border: 5px solid #1A7276;
-
-
-/* Add patient button */
-
-
-position: absolute;
-width: 474px;
-height: 60px;
-left: 820px;
-top: 745px;
+}
