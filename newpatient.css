@@ -1,69 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/* Features / Tablet / 05 */
-
-a.inner_menu{margin: 0 auto; width: 1440px;}
-.inner_menu ul{margin: 0; padding: 30px;list-style: none;}
-.inner_menu ul li{ float: none; display: inline-block;}
-.inner_menu ul li a{color: #414141; text-decoration: none; font-family: "Space Grotesk",sans-serif;padding: 1px 20px; }
-.inner_menu ul li a:hover{color: #062729;}
-#menu{width: 100%;}
-
-#nav{
-    width: 1440px;
-    height: 44px;
-    top: 16px;
-    left: 70px;
-    gap: 8px;
-}
-.logo{
-    position: absolute;
-    width: 141px;
-    height: 150px;
-    left:50%;
-    align-items: center;
-   
-    
-    background: url(logo.png);
-}
-
-#menu{
-    width: 100%;
-    height: 76px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    border-bottom: 2px solid #F8E0FB;
-}
-
-
-
-/* Navigation / Desktop / 11 */
-
-
-body{
-    margin: 0px;
-    width: 100%;
-    height: 76px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-}
 /* NEW PATIENT PROFILE */
-.sec-newpaprofile{
+.text{
+    display: block;
+    text-align: center;
+    margin-top: 30px ;
+}
+
+.text h1{
+    
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.text h2{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+
+}
+
+.bigbox{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: red 1px solid;
+    height: auto;
+}
+
+.infobox{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 610px;
+    background-color: #532C591C ;
+    border-radius: 30px;
+}
+
+
+.input{
+    width: 500px;
+    margin-top: 120px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rebeccapurple;
+    gap: 55px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+label{
+    width: 220px;
+    display: inline-block;
+    
+}
+
+/* .sec-newpaprofile{
     display: flex;
     align-items: center;
 
-}
+} */
 
-#newpa{
+/* #newpa{
    
     width: 569px;
     height: 56px;
@@ -72,17 +86,13 @@ body{
     font-weight: 300;
     font-size: 40px;
     line-height: 56px;
-    /* identical to box height, or 140% */
     text-align: center;
-    /* Black */
     color: #000000;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-}
-/* ADD PAIENT PROFILE HERE */
-#addhere{
+} */
+/* #addhere{
     
     width: 575px;
     height: 24px;
@@ -91,11 +101,11 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
+
     text-align: center;
-    /* Accent */
+
     color: #532C59;
-    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 1;
@@ -110,8 +120,7 @@ body{
     background: rgba(83, 44, 89, 0.11);
     border-radius: 30px
 }
-
-.petname1{
+    .petname1{
         position: absolute;
         width: 1000 px;
         height: 100px;
@@ -122,24 +131,8 @@ body{
         font-weight: 1000;
         font-size: 25px;
         line-height: 20px;
-        /* identical to box height, or 80% */
+
         color: #000000;
         border-bottom: 2px solid #F8E0FB;
     }
-
-    .petname5{
-        position: absolute;
-        width:  260px;
-        height: 34px;
-        left: 404px;
-        top: 359px;
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 1000;
-        font-size: 25px;
-        line-height: 20px;
-        /* identical to box height, or 80% */
-        color: #000000;
-        border-bottom: 2px solid #F8E0FB;
-
-    }
+ */

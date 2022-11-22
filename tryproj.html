@@ -6,90 +6,83 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PIPET Hospital</title>
         <link rel="stylesheet" href="newpatient.css">
-        <!-- <link rel="stylesheet" href="style.css"> -->
-            
+        <link rel="stylesheet" href="style.css">
+        
 
 
     </head>
     <body>
-         <div id ="menu">
-            <div class="logo">
-                <a href=""><img src="pics/logo 1.svg"></a>
-            </div>
+        <!-- nav -->
+        <header id ="menu">
+        
+             
+            
             <div class="inner_menu">
             <ul>
             <li><a href="website.html">HOME</a></li>
-            <li><a>NEW PATIENT</a></li>
+            <li><a href="newpatient.php">NEW PATIENT</a></li>
             <li><a href="patient.php">PATIENT</a></li>
             </ul>
+           
             </div> 
-        </div>
-        <div class = 'text'>
+            <a class = logo href="website.html"><img src="pics/logo 1.svg"></a>
+        </header>
+
+
+        <!-- form -->
+       
+        <sectin>
+            <div class = 'text'>
             
-                <h1> NEW PATIENT PROFILE </h1><br>
-                <h2> ADD PATIENT PROFILE HERE </h2>
+                    <h1> NEW PATIENT PROFILE </h1><br>
+                    <h2> ADD PATIENT PROFILE HERE </h2>
             
-        </div>
+            </div>
+        </sectin>
         
         <div class="bigbox">
             <div class = 'infobox'>
                 <form action="patient.php" method="post">
-                    <div class = 'petname1'>
-                        <p id= 'petname' >PET NAME:</label>
-                        <input type="text" name="firstname"><br>
-                    </div>
-                    <div class = 'petname5'>
-                        <label>PET TYPE:</label>
-                        <select  name = 'pettypeselect'>
-                            <option value = "Cat">Cat
-                            <option value = "Dog">Dog
-                            <option value = "Birds">Birds
-                            <option value = "Reptiles">Reptiles
-                            <option value = "Amphibia">Amphibia
-                           </select> <br>
-                    </div>
-                    <div class = 'petname2'>
-                        <label>DATE OF BIRTH:</label>
-                        <input type="text" name="pettype"><br>
-                    </div>
-                    <div class = 'petname3'>
-                        <label>OWNER NAME:</label>
-                        <input type="text" name="pettype"><br>
-                    </div>
-                    <div class = 'petname4'>
-                        <label>OWNER PHONE:</label>
-                        <input type="text" name="pettype"><br>
+                    <div class="input">
+                        <div class = 'petname'>
+                            <label>PET NAME:</label>
+                            <input type="text" name="firstname"><br>
+                        </div>
+                        <div class = 'petname'>
+                            <label>PET TYPE:</label>
+                            <select  name = 'pettypeselect'>
+                                <option value = "Cat">Cat
+                                <option value = "Dog">Dog
+                                <option value = "Birds">Birds
+                                <option value = "Reptiles">Reptiles
+                                <option value = "Amphibia">Amphibia
+                               </select> <br>
+                        </div>
+                        <div class = 'petname'>
+                            <label>DATE OF BIRTH:</label>
+                            <input type="text" name="pettype"><br>
+                        </div>
+                        <div class = 'petname'>
+                            <label>OWNER NAME:</label>
+                            <input type="text" name="pettype"><br>
+                        </div>
+                        <div class = 'petname'>
+                            <label>OWNER PHONE:</label>
+                            <input type="text" name="pettype"><br>
+                        </div>
+
+                        <div class="upload">
+                            
+                        </div>
                     </div>
             
                 </form>
+
+
             </div>
         </div>
        
 
-            <!-- navigator -->
-
-           <!--  <header id ="menu">
-                <div class="logo">
-                    <a href="website.html"><img src="pics/logo 1.svg"></a>
-                </div>
-                <div class="inner_menu">
-                <ul>
-                <li><a href="home.php">HOME</a></li>
-                <li><a href="newpatient.php">NEW PATIENT</a></li>
-                <li><a href="patient.php">PATIENT</a></li>
-                </ul>
-                </div>
-            </header>
-
-
-            <section class = 'feature'>
-                <div class = 'sec-newpaprofile'>
-                    <h2 id = newpa> NEW PATIENT PROFILE <br></h2>
-                    <p id = addhere> ADD PATIENT PROFILE HERE <br></p>
-                </div>
-            
-            </section>
-            <div class = 'infobox'> -->
             
             </div>
         
