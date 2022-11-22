@@ -59,6 +59,7 @@ body{
 /* NEW PATIENT PROFILE */
 
 #newpa{
+   
     width: 569px;
     height: 56px;
     font-family: 'Syne';
@@ -77,6 +78,7 @@ body{
 }
 /* ADD PAIENT PROFILE HERE */
 #addhere{
+    
     width: 575px;
     height: 24px;
     font-family: 'Space Grotesk';
@@ -104,14 +106,12 @@ top: 216px;
 background: rgba(83, 44, 89, 0.11);
 border-radius: 30px
 }
-    .petname{
+    .petname1{
         position: absolute;
-        width: 125px;
+        width: 1000 px;
         height: 100px;
     left: 138px;
     top: 336px;
-    
-    
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 1000;
