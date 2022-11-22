@@ -57,60 +57,62 @@ body{
     background: #FFFFFF;
 }
 /* NEW PATIENT PROFILE */
-.sec-newpaprofile{
+.text{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    margin-top: 45px;
 
 }
-
-#newpa{
-   
-    width: 569px;
-    height: 56px;
+.text h1{
     font-family: 'Syne';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 40px;
     line-height: 56px;
     /* identical to box height, or 140% */
+
     text-align: center;
+
     /* Black */
+
     color: #000000;
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+
 }
-/* ADD PAIENT PROFILE HERE */
-#addhere{
-    
-    width: 575px;
-    height: 24px;
+
+.text h2{
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 15px;
     /* identical to box height, or 150% */
+
     text-align: center;
+
     /* Accent */
+
     color: #532C59;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 1;
 }
 
+.bigbox{
+    border: red 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+
 .infobox{
-    position: absolute;
+    margin-top: 50px;
     width: 1301px;
     height: 611px;
     left: 70px;
     top: 216px;
     background: rgba(83, 44, 89, 0.11);
-    border-radius: 30px
+    border-radius: 50px;
+    
 }
-    .petname1{
+    /* .petname1{
         position: absolute;
         width: 1000 px;
         height: 100px;
@@ -124,5 +126,5 @@ body{
         /* identical to box height, or 80% */
         color: #000000;
         border-bottom: 2px solid #F8E0FB;
-    }
+    } */
 
