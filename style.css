@@ -11,7 +11,7 @@
 
 
 a.inner_menu{margin: 0 auto; width: 1440px;}
-.inner_menu ul{margin: 0; padding: 30px;list-style: none;}
+.inner_menu ul{margin: 0; padding: 30px;list-style: none; display: flex;}
 .inner_menu ul li{ float: none; display: inline-block;}
 .inner_menu ul li a{color: #414141; text-decoration: none; font-family: "Space Grotesk",sans-serif;padding: 1px 20px; }
 .inner_menu ul li a:hover{color: #062729;}
@@ -19,154 +19,126 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 
 
 .logo{
-    position: absolute;
+    display: block;
     width: 141px;
     height: 150px;
-    left: 48%;
-    right: 0px;
-
+    margin-left: 260px;
 
 }
 
 #menu{
-    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    width: 1440px
+    ;
     height: 76px;
-    left: 0px;
-    top: 0px;
     background: #FFFFFF;
     border-bottom: 2px solid #F8E0FB;
+    /* border: 1px red solid; */
 }
 body{
-    margin: 0px;
-
-    width: 100%;
-    position: relative;
+    margin: 0px auto;
+    width: 1440px;
     height: 2789px;
-    background: #FFFFFF;
+    border: 1px red solid
+
 }
 
 /* Header-Start */
 
-#part1{
-    position: absolute;
+.part1{
     height: 500px;
-    left: 0px;
+    display: flex;
+    justify-content: center ;
 
-    right: 0px;
-    top: calc(50% - 500px/2 - 1068.5px);
+}
 
+
+
+.pic1{
+    margin-top: 40px;
+    width: 367px;
+    height: 423px;
+    margin-left: 350px;
+}
+.pic img{
+    
+    padding: 5rem;
+     ;
+    
+    background: url(.png);
 }
 
 #banner {
 
-
+    margin-top: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     
-    position: absolute;
+ 
     width: 856px;
     height: 332px;
-    left: calc(50% - 856px/2 + 262px);
+    left: ;
     top: 104px;
-}
-
-#pic1 {
-    position: absolute;
-    width: 367px;
-    height: 423px;
-    left: 248px;
-    top: 64px;
-    
-    background: url(.png);
-}
-
+} 
 
 #namehos{
-    /* PIPET HOSPITAL */
 
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
 
+    text-align: center;
 
-font-family: 'Syne';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 96px;
-/* or 120% */
-
-text-align: center;
-
-color: #1A7276;
-
-
-/* Inside auto layout */
-
-
+    color: #1A7276;
 }
 
 #quote{
-    margin-top: -20;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: 'Space Grotesk', sans-serif;
-    
-
-
-
-
-/* Inside auto layout */
 
 }
 
 
 #start{
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 10px;
 
-width: 83px;
-height: 52px;
+    justify-content: center;
+    align-items: center;
 
-/* Accent */
-color: white;
-background: #532C59;
-border-radius: 15px;
 
-font-family: 'Syne';
-/* Inside auto layout */
 
-flex: none;
-order: 2;
-flex-grow: 0;
-}
+    width: 83px;
+    height: 52px;
+    color: white;
+    background: #532C59;
+    border-radius: 15px;
+
+    font-family: 'Syne';
+
+
+    }
 
 /* Header-End */
 
 
 /* Content-Start */
 /* Team */
-#team{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow-y: 640px;
+.team{
+
+
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;    
-    position: absolute;
-    width: 100%;
     height: 532px;
-    left: 0px;
-    top: 640px;
+
+
 }
 
-.content{
+/* .content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,7 +148,7 @@ flex-grow: 0;
     height: 374px;
     left: calc(50% - 1300px/2);
     top: 66px;
-}
+} */
 .team_center{
     display: flex;
     flex-direction: column;
@@ -270,8 +242,7 @@ flex-grow: 1;
 
 
 .feature{
-    position: relative;
-  width: 100%;
+    width: 100%;
     height: 160px;
    
   
