@@ -201,11 +201,144 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 
     font-family: 'Space Grotesk';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     color: #532C59;
 }
+
+/* Patient Collection */
+.collect{
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    margin-top: 60px;
+    text-align: center;
+}
+.title h3{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120px;
+    /* identical to box height, or 133% */
+    text-align: center;
+
+    /* Black */
+
+    color: #000000;
+}
+
+.title p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    
+    /* Accent */
+    
+    color: #532C59;
+
+}
+.pinfo{
+    display: flex;
+    /* border: 1px red solid; */
+    padding: 2rem;
+}
+
+.rbox img{
+    width: 410px ;
+    height: 395px;
+    object-fit: cover;
+}
+
+.rbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.rbox h4{
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 80px;
+    /* identical to box height, or 131% */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #000000;
+
+
+}
+
+.rbox p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    /* Accent */
+
+    color: #532C59;
+
+
+}
+
+.btn{
+    margin-top: 50px;
+    display: flex;
+    width: 540px;
+    height: 75px;
+    border: 3px #532C59 solid;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color:#532C59;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 20px;
+    /* identical to box height, or 56% */
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* New_Patient */
@@ -217,7 +350,6 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
     height: 160px;
    
   
-   
 
 }
 .sec-newpaprofile{
