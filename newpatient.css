@@ -110,7 +110,8 @@ body{
     background: rgba(83, 44, 89, 0.11);
     border-radius: 30px
 }
-    .petname1{
+
+.petname1{
         position: absolute;
         width: 1000 px;
         height: 100px;
@@ -126,3 +127,19 @@ body{
         border-bottom: 2px solid #F8E0FB;
     }
 
+    .petname5{
+        position: absolute;
+        width:  260px;
+        height: 34px;
+        left: 404px;
+        top: 359px;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 25px;
+        line-height: 20px;
+        /* identical to box height, or 80% */
+        color: #000000;
+        border-bottom: 2px solid #F8E0FB;
+
+    }
