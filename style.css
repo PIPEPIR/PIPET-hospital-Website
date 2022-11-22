@@ -102,7 +102,7 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 }
 
 
-.button start{
+#start{
     display: flex;
 
     justify-content: center;
