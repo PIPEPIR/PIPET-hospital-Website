@@ -96,14 +96,14 @@ body{
 
 .infobox{
     position: absolute;
-    width: 1301px;
-    height: 611px;
-    left: 70px;
-    top: 216px;
-    
-    background: rgba(83, 44, 89, 0.11);
-    border-radius: 30px;
-    }
+width: 1301px;
+height: 611px;
+left: 70px;
+top: 216px;
+
+background: rgba(83, 44, 89, 0.11);
+border-radius: 30px
+}
     .petname{
         position: absolute;
         width: 125px;

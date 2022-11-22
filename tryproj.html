@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PIPET Hospital</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="newpatient.css">
             
 
 
@@ -29,19 +29,24 @@
                 <p id = 'addhere'> ADD PATIENT PROFILE HERE <br></p>
             </div>
         </div>
-        <form action="patient.php" method="post"> 
+        
         <div class = 'infobox'>
-           
-                <p id= 'petname' >PET NAME:</label> 
+            <form action="patient.php" method="post"> 
+            <p id= 'petname' >PET NAME:</label> 
                 <input type="text" name="firstname"><br>
                 <label>PET TYPE:</label>
                 <input type="text" name="pettype"><br>
+                COMBO BOX : <select  name = 'pettypeselect'>
+                    <option value = "A">A
+                    <option value = "A">B
+                    <option value = "A">c
+                   </select> <br>
                 <label>DATE OF BIRTH:</label> <br>
                 <label>OWNER NAME:</label> <br>
                 <label>OWNER PHONE:</label> 
-            
+            </form>
         </div>
-        </form> 
+       
 
             <!-- navigator -->
 
