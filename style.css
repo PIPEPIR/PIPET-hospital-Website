@@ -17,22 +17,15 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 .inner_menu ul li a:hover{color: #062729;}
 #menu{width: 100%;}
 
-#nav{
-    width: 1440px;
-    height: 44px;
-    top: 16px;
-    left: 70px;
-    gap: 8px;
-}
+
 .logo{
     position: absolute;
     width: 141px;
     height: 150px;
-    left:50%;
-    align-items: center;
-   
-    
-    background: url(logo.png);
+    left: 48%;
+    right: 0px;
+
+
 }
 
 #menu{
@@ -180,7 +173,6 @@ flex-grow: 0;
     padding: 0px;
     gap: 80px;
     position: absolute;
-    width: 1300px;
     height: 374px;
     left: calc(50% - 1300px/2);
     top: 66px;
@@ -272,3 +264,81 @@ order: 0;
 flex-grow: 1;
 }
 
+
+/* New_Patient */
+
+
+
+.feature{
+    position: relative;
+  width: 100%;
+    height: 160px;
+   
+  
+   
+
+}
+.sec-newpaprofile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+
+    position: absolute;
+    height: 96px;
+    left: 35%;
+    top: 64px;
+    justify-content: center;
+    
+}
+
+#newpa {
+    width: 569px;
+    height: 56px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+/* identical to box height, or 140% */
+
+text-align: center;
+
+/* Black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#addhere{
+    width: 505px;
+height: 24px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+/* Accent */
+
+color: #532C59;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}

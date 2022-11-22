@@ -47,6 +47,7 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 
 /* Navigation / Desktop / 11 */
 
+
 #menu{
 box-sizing: border-box;
 position: absolute;
@@ -60,8 +61,9 @@ border-bottom: 1px solid #F8E0FB;
 }body{
     margin: 0px;
     width: 100%;
-    position: relative;
-    height: 2789px;
+    height: 76px;
+    left: 0px;
+    top: 0px;
     background: #FFFFFF;
 }
 /* NEW PATIENT PROFILE */
@@ -129,4 +131,5 @@ line-height: 20px;
 
 
 color: #000000;
+    border-bottom: 2px solid #F8E0FB;
 }
