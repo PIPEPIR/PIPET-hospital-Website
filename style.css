@@ -206,8 +206,8 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
 }
 
 /* Patient Collection */
+
 .collect{
-    /* border: 1px red solid; */
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -224,11 +224,7 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
     font-weight: 700;
     font-size: 48px;
     line-height: 120px;
-    /* identical to box height, or 133% */
     text-align: center;
-
-    /* Black */
-
     color: #000000;
 }
 
@@ -238,18 +234,12 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
     font-weight: bolder;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-    
     text-align: center;
-    
-    /* Accent */
-    
     color: #532C59;
 
 }
 .pinfo{
     display: flex;
-    /* border: 1px red solid; */
     padding: 2rem;
 }
 
@@ -273,12 +263,7 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
     font-weight: bold;
     font-size: 32px;
     line-height: 80px;
-    /* identical to box height, or 131% */
-
     text-align: center;
-
-    /* Black */
-
     color: #000000;
 
 
@@ -290,12 +275,7 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
-    /* or 143% */
-
     text-align: center;
-
-    /* Accent */
-
     color: #532C59;
 
 
@@ -320,8 +300,6 @@ a.inner_menu{margin: 0 auto; width: 1440px;}
     font-weight: 500;
     font-size: 36px;
     line-height: 20px;
-    /* identical to box height, or 56% */
-
     text-align: center;
 }
 
